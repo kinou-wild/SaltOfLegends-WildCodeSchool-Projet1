@@ -1,0 +1,227 @@
+html{
+    font-family: 'Cardo', serif;
+    font-size: 15px;
+} 
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: #11ffee00;
+    
+}
+
+.nawak {
+    padding: auto;
+    height: 250px;
+}
+
+
+#TheNavbar{
+    display: flex;
+    text-align: center;
+    border-bottom: 10px outset #C79A3C;
+}
+
+.menucontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+.show {
+    display:block !important;
+}
+.dropdown{
+    display: flex;
+    position: relative;
+}
+nav {
+    background-color: #000F28;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 5rem;
+    color:#d39e17;
+}
+
+#Homelink {
+    display:flex;  
+    padding:0px;
+    border:0px;
+}
+.navbutton {
+    background-color: #000F28;
+    border: none;
+    cursor: pointer;
+}
+.menucontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    top:55px;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;}
+
+#charactersmenu{
+    background-color: #020627 !important;
+}
+.chara:hover{
+    background-color: #072885 !important;
+}
+#thetitle{
+    width: 200px;
+    justify-self: center;
+
+}
+.bodybg {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    background-image: url(https://gamepedia.cursecdn.com/lolesports_gamepedia_en/3/3f/Pantheon_6.jpg?version=d07e515b8a7d80d08b375567030c8875
+    );
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contact {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    width : 9999px;
+    text-shadow: 5px 5px 10px maroon, 0 0 3em white, 0 0 0.5em #C79A3C;
+    color: #C79A3C;
+
+}
+
+form {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 35px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #C79A3C;;
+    border-radius: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin: 0.5em; 
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #F7F7FF;
+    color: black;
+}
+
+/*textarea {
+    padding: 50px;
+}*/
+
+.textcontact {
+    padding: 0px 5px;
+    min-height: 100px;
+    max-height: 300px;
+}
+
+.button {
+    width: 200px;
+    display: inline-block;
+}
+
+hr {
+    margin-top: auto;
+    border: 0;
+    height: 5px;
+    background-color: #C79A3C;;
+}
+
+footer {
+    margin: 0;
+    background-color: #000F28;
+    color: white;
+}
+
+.link {
+    margin-top: 35px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a, a:visited {
+    color: darkgoldenrod;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px maroon, 0 0 3em white, 0 0 0.5em #C79A3C;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*#facebook, #twitter {
+    padding: 25px 150px;0
+}*/
+
+p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px maroon, 0 0 3em white, 0 0 0.5em #C79A3C;
+    color: #C79A3C;
+}
+
+@media all and (min-width: 961px) {
+    html {
+       margin: auto;
+    }
+    
+    
+    form {
+        width: 600px;        
+    }
+
+    .content {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px;
+    }
+
+    .bodybg {
+       background-image: url(https://cdn.vox-cdn.com/uploads/chorus_asset/file/18366547/Dragonslayer.jpg);
+       background-size: 100%;
+       background-repeat: no-repeat;
+       background-position: top 100px; 
+    }
+
+    .contact {
+        font-size: 100px;
+    }
+}
+
+/* CSS pour l'heure et la date */
+
+#date_hour {
+
+    display: flex;
+    align-items: center;
+
+}

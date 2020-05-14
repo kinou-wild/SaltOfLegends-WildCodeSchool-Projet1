@@ -1,0 +1,49 @@
+Font html :
+
+
+<link href="https://fonts.googleapis.com/css?family=Cardo&display=swap" rel="stylesheet">
+
+
+CSS font & color :
+
+
+font-family: 'Cardo', serif;
+color: #C79A3C;
+text-shadow: 2px 2px 2px #000000;
+
+
+
+Font-size :
+
+- Desktop :	
+		Titre (80px)
+		Texte (20px)
+		Description_Texte (25px)
+		Footer_Texte (20px)
+		Header_Texte (20px) ?
+
+
+- Mobile :	
+		Titre (40px)
+		Texte (15px)
+		Description_Texte (20px)		
+		Footer_Texte (15px)
+		Header_Texte (15px) ?
+
+
+Background fixe :
+
+	margin: auto;
+	background-image: url("");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+		
+
+
+
+
+
+
+
